@@ -31,3 +31,6 @@
 
 fr:
   hello: "Coucou le monde!"
+  # pages:
+    # homepage:
+      # title: 'Accueil'
