@@ -1,3 +1,7 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  root 'high_voltage/pages#show', :id => 'homepage', :format => false
+  get '/:locale' => 'high_voltage/pages#show', :id => 'homepage'
+  scope "/:locale", locale: /en|fr/ do
+      get "/pages/:id" => "high_voltage/pages#show", :as => :page, :format => false
+  end
 end

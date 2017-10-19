@@ -65,8 +65,10 @@ GEM
     erubi (1.7.0)
     execjs (2.7.0)
     ffi (1.9.18)
+    flutie (2.0.0)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
+    high_voltage (3.0.0)
     i18n (0.9.0)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -140,6 +142,8 @@ GEM
     selenium-webdriver (3.6.0)
       childprocess (~> 0.5)
       rubyzip (~> 1.0)
+    sitemap_generator (6.0.0)
+      builder (~> 3.0)
     spring (2.0.2)
       activesupport (>= 4.2)
     spring-watcher-listen (2.0.1)
@@ -181,12 +185,15 @@ DEPENDENCIES
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
+  flutie
+  high_voltage
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
   selenium-webdriver
+  sitemap_generator
   spring
   spring-watcher-listen (~> 2.0.0)
   sqlite3
