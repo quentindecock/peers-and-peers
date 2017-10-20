@@ -1,0 +1,18 @@
+<header class="site-header">
+    <div class="container">
+        <nav id="mainmenu" class="nav">
+            <a class="nav-button" href="#0"><span aria-hidden="true"></span></a>
+            <ul>
+                <li><a href="<%= page_path(:id => :homepage) %>"        <% if current_page?(page_path(:id => :homepage)) %> class="active" <% end %>><span>Home</span></a></li>
+                <li><a href="<%= page_path(:id => 'due-diligences') %>" <% if current_page?(page_path(:id => 'due-diligences')) %> class="active" <% end %>><span>Due Diligences</span></a></li>
+                <li><a href="<%= page_path(:id => 'consulting') %>"     <% if current_page?(page_path(:id => 'consulting')) %> class="active" <% end %>><span>Consulting</span></a></li>
+                <li><a href="<%= page_path(:id => 'credentials') %>"    <% if current_page?(page_path(:id => 'credentials')) %> class="active" <% end %>><span>Credentials</span></a></li>
+                <li><a href="<%= page_path(:id => 'team') %>"           <% if current_page?(page_path(:id => 'team')) %> class="active" <% end %>><span>Team</span></a></li>
+                <li><a href="<%= page_path(:id => 'contact') %>"        <% if current_page?(page_path(:id => 'contact')) %> class="active" <% end %>><span>Contact</span></a></li>
+            </ul>
+            <span aria-hidden="true" class="nav-bg"></span>
+        </nav>
+        <span class="nav-mask"></span>
+        <h1 class="site-name animated"><a href="<%= page_path(:id => :homepage) %>">Peers &amp; Peers</a></h1>
+    </div>
+</header>
