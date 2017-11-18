@@ -11,7 +11,7 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <meta name="description" content="Peers & Peers is a due diligence and consulting firm focused on technology. As auditors we help VC funds assess the technological value of their targets. As consultants we help entrepreneurs better leverage the technologies and methodologies available to them." />
   </head>
-  <body <% if current_page?(page_path(:id => :homepage)) %> class="home" <% end %>>
+  <body <% if current_page_is_homepage? %> class="home" <% end %>>
     <%= render 'layouts/header' %>
     <%= yield %>
     <%= render 'layouts/footer' %>
