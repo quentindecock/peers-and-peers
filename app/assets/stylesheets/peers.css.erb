@@ -2277,12 +2277,6 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
  */
 /* FONT PATH
  * -------------------------- */
-@font-face {
-  font-family: 'FontAwesome';
-  src: url("../fonts/font-awesome//fontawesome-webfont.eot?v=4.7.0");
-  src: url("../fonts/font-awesome//fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/font-awesome//fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/font-awesome//fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/font-awesome//fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/font-awesome//fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 
 .fa {
   display: inline-block;
@@ -2322,13 +2316,16 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     position: relative; }
 
 .fa-li {
-  position: absolute;
-  left: -2.14286em;
-  width: 2.14286em;
-  top: 0.14286em;
-  text-align: center; }
-  .fa-li.fa-lg {
-    left: -1.85714em; }
+  position:   absolute;
+  left:       -2.14286em;
+  width:      2.14286em;
+  top:        0.14286em;
+  text-align: center;
+}
+
+.fa-li.fa-lg {
+  left: -1.85714em;
+}
 
 .fa-border {
   padding: .2em .25em .15em;
@@ -2336,7 +2333,8 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   border-radius: .1em; }
 
 .fa-pull-left {
-  float: left; }
+  float: left;
+}
 
 .fa-pull-right {
   float: right; }
@@ -5042,7 +5040,6 @@ body {
   left: 0;
   right: 0;
   height: 90px;
-  background-color: rgba(0, 52, 84, 0.9);
   line-height: 90px;
   padding: 0 10px; }
   .site-footer::before, .site-footer::after {
