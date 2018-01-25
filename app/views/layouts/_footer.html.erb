@@ -1,8 +1,8 @@
 <footer class="site-footer">
   <div class="container">
     <nav class="menu lang-menu">
-      <a class="menu-item <% if I18n.locale == :fr %> is-active <% end %>" href="<%= page_path(:id => :homepage, :locale => :fr)%>">FR</a>
-      <a class="menu-item <% if I18n.locale == :en %> is-active <% end %>" href="<%= page_path(:id => :homepage, :locale => :en)%>">ENG</a>
+      <a class="menu-item <% if I18n.locale == :fr %> is-active <% end %>" href="<%= url_for(:locale => :fr) %>">FR</a>
+      <a class="menu-item <% if I18n.locale == :en %> is-active <% end %>" href="<%= url_for(:locale => :en) %>">ENG</a>
     </nav>
   </div>
 </footer>
