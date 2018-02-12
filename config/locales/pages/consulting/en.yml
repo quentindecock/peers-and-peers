@@ -4,12 +4,15 @@ en:
     <p>
       As entrepreneurs the decisions we need to make about technology are far from obvious:
       <ul>
-        <li> How should I organize the dev team?  </li>
-        <li> Which language and framework should we pick? </li>
-        <li> How should I handle my data? </li>
-        <li> Should I start implementing automated test now or later? </li>
-        <li> Should I pay technical debt now or later? </li>
-        <li> Should I migrate everything to the cloud or host my own services? </li>
+        <li> How should I organize the dev team ?  </li>
+        <li> Which language and framework should we pick ? </li>
+        <li> How should I handle massive amounts of data ? </li>
+        <li> Will my systems hold the growing traffic ? </li>
+        <li> Should I start implementing automated test now or later ? </li>
+        <li> Should I pay technical debt now or later ? </li>
+        <li> Should I migrate everything to the cloud or host on barebone cheap servers ? </li>
+        <li> Is my data and systems secure ? </li>
+        <li> How can I keep uptime high ? </li>
         <li> etc. </li>
       </ul>
     </p>
