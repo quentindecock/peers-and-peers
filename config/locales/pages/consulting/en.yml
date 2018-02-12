@@ -1,26 +1,39 @@
 en:
   consulting_title: "Consulting"
-  consulting_description:
+  consulting_description: "
     <p>
-      Technology is everywhere, and it is ever changing. From hardware to software, it has entered our personal and professional lives on a very deep level. It is fair to say that we strongly depend on it now.
+      As entrepreneurs the decisions we need to make about technology are far from obvious:
+      <ul>
+        <li> How should I organize the dev team?  </li>
+        <li> Which language and framework should we pick? </li>
+        <li> How should I handle my data? </li>
+        <li> Should I start implementing automated test now or later? </li>
+        <li> Should I pay technical debt now or later? </li>
+        <li> Should I migrate everything to the cloud or host my own services? </li>
+        <li> etc. </li>
+      </ul>
     </p>
 
     <p>
-      It is even more true for businesses in technology. Actually, in some cases technology is the sole fabric of a company. No Internet, no business. It is that simple.
+      These are important and impactful questions. They will make or break the efficiency of your business.
     </p>
 
     <p>
-      That strong dependency must be proportional to the care we invest into it as entrepreneurs. The care to inform our decisions when chosing such language or framework. The care to hire the right people with the right skills, the right mindset, and to grow them. The care to invest in properly managing our teams and maintaining our technological edge. The care to pay technological debt in time, before we lose productivity and flexibility. We need to care, deeply, daily , truthfully, to maintain our technological leverage.
+      At Peers and Peers, we have the framework and a network of expert around us to rationalize and answer these important questions for you, and help you implement pragmatic solutions.
     </p>
 
     <p>
-      This raises many strategic questions.
-    </p>
-
-    <p>
-      Our team and network of experts is here to help you clear the fog and get sharp answers aligned with your specific business goals.
+      For example, we can help you with :
+      <ul>
+        <li> Team organisation (Lean / Agile / Scrum) </li>
+        <li> System's architecture design </li>
+        <li> Software design </li>
+        <li> DevOps </li>
+        <li> Information and System's Security </li>
+      </ul>
     </p>
 
     <p>
       We want to put our expertise to your service for you to thrive.
     </p>
+    "
