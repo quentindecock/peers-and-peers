@@ -25,7 +25,10 @@ SitemapGenerator::Sitemap.create do
   #     add article_path(article), :lastmod => article.updated_at
   #   end
   #
-  ['due-diligence','consulting','credentials','team','contact'].each do |title|
+  ['due-diligences','consulting','credentials','team','contact'].each do |title|
     add "/en/pages/#{title}", :priority => 0.7, :changefreq => 'monthly'
+  end
+  ['due-diligences','consulting','credentials','team','contact'].each do |title|
+    add "/fr/pages/#{title}", :priority => 0.7, :changefreq => 'monthly'
   end
 end
