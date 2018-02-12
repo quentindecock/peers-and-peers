@@ -10,7 +10,6 @@ Rails.application.routes.draw do
   get '/en/pages/due-diligence', to: redirect('/en/pages/due-diligences',301)
 
   scope "(:locale)", locale: /#{I18n.available_locales.join("|")}/, defaults: {locale: "en"} do
-    # get '/:locale' => 'high_voltage/pages#show', :id => 'homepage'
     get "/pages/:id" => "high_voltage/pages#show", :as => :page, :format => false
   end
 end
